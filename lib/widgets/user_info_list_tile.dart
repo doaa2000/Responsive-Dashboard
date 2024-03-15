@@ -1,20 +1,32 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_dash_board/utils/app_images.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:responsive_dash_board/models/user_info.model.dart';
 import 'package:responsive_dash_board/utils/app_styles.dart';
+
 class UserInfoListTile extends StatelessWidget {
-  const UserInfoListTile({super.key, required this.image, required this.title, required this.subtitle});
-final String image , title, subtitle;
+  const UserInfoListTile({
+    super.key,
+    required this.userInfoModel,
+  });
+  final UserInfoModel userInfoModel;
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      leading: SvgPicture.asset(image),
-      title: Text(title,
-        style: AppStyles.styleSemiBold16(context),
-      ),
-      subtitle:Text(subtitle,
-        style: AppStyles.styleRegular12(context),
+    return Card(
+      elevation: 0,
+      color: const Color(0xFFfafafa),
+      child: Center(
+        child: ListTile(
+          leading: SvgPicture.asset(userInfoModel.image),
+          title: Text(
+            userInfoModel.title,
+            style: AppStyles.styleSemiBold16(context),
+          ),
+          subtitle: Text(
+            userInfoModel.subtitle,
+            style: AppStyles.styleRegular12(context),
+          ),
+        ),
       ),
     );
   }

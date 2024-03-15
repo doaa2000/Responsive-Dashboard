@@ -5,6 +5,10 @@ class Assets {
   /// assets/images/avatar.svg
   static const String imagesAvatar = "assets/images/avatar.svg";
 
+  /// Assets for imagesAvatar1
+  /// assets/images/avatar_1.svg
+  static const String imagesAvatar1 = "assets/images/avatar_1.svg";
+
   /// Assets for imagesAvatar2
   /// assets/images/avatar_2.svg
   static const String imagesAvatar2 = "assets/images/avatar_2.svg";
@@ -12,6 +16,10 @@ class Assets {
   /// Assets for imagesAvatar3
   /// assets/images/avatar_3.svg
   static const String imagesAvatar3 = "assets/images/avatar_3.svg";
+
+  /// Assets for imagesBalance
+  /// assets/images/balance.svg
+  static const String imagesBalance = "assets/images/balance.svg";
 
   /// Assets for imagesCardReceive
   /// assets/images/card-receive.svg
@@ -37,9 +45,29 @@ class Assets {
   /// assets/images/graph.svg
   static const String imagesGraph = "assets/images/graph.svg";
 
-  /// Assets for imagesMask group
-  /// assets/images/Mask group.svg
-  static const String imagesMaskgroup = "assets/images/Mask group.svg";
+  /// Assets for imagesIncome
+  /// assets/images/income.svg
+  static const String imagesIncome = "assets/images/income.svg";
+
+  /// Assets for imagesLogout
+  /// assets/images/logout.svg
+  static const String imagesLogout = "assets/images/logout.svg";
+
+  /// Assets for imagesMaskGroup
+  /// assets/images/Mask_group.svg
+  static const String imagesMaskGroup = "assets/images/Mask_group.svg";
+
+  /// Assets for imagesSetting2
+  /// assets/images/setting-2.svg
+  static const String imagesSetting2 = "assets/images/setting-2.svg";
+
+  /// Assets for imagesStatics
+  /// assets/images/statics.svg
+  static const String imagesStatics = "assets/images/statics.svg";
+
+  /// Assets for imagesTrnsactions
+  /// assets/images/trnsactions.svg
+  static const String imagesTrnsactions = "assets/images/trnsactions.svg";
 
   /// Assets for imagesWallet2
   /// assets/images/wallet-2.svg
